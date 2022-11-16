@@ -13,7 +13,7 @@ function useCompanyApi(search) {
       setCheckExist(true);
     }
   }
-  const API_KEY = `0CHJ7V4OV6Q5YKON`; //alternative:`Q0UX9HMH0Y7RDAG3`
+  const API_KEY =process.env.REACT_APP_API_KEY1;
   async function getCompanyDatas(search) {
     const url = `https://www.alphavantage.co/query?function=OVERVIEW&symbol=${search}&apikey=${API_KEY}`;
     let res = await fetch(url);
