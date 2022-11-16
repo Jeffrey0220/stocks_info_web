@@ -4,7 +4,7 @@ function useStocksApi(index) {
   const [loading, setLoading] = useState(true);
   const [stocksDatas, setStocksDatas] = useState([]);
   const [error, setError] = useState(null);
-  const API_KEY = `bf186a537bcf074adc5473d7be793521`; //alternative:`7ec131ab714b8a9e7d682e789a17c5eb`
+  const API_KEY = process.env.REACT_APP_API_KEY3;
   let init = "nasdaq_constituent";
   async function getStocksDatas(index) {
     const url = `https://financialmodelingprep.com/api/v3/${
