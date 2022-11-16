@@ -1,0 +1,19 @@
+.container {
+  background-color: #f4f7fa;
+  color: #fff;
+  height: 70px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.card {
+  color: rgba(213, 165, 165, 0.5);
+}
+.prompt h6 {
+  padding-left: 1%;
+  font-weight: bold;
+  color: rgb(9, 180, 247);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

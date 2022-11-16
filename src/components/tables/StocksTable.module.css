@@ -1,0 +1,20 @@
+.container {
+  background-color: #f4f7fa;
+  color: #fff;
+  height: 70px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.searchStyle {
+  display: flex;
+  align-items: flex-end;
+}
+.searchStyle h6 {
+  padding-left: 3%;
+  font-weight: bold;
+  color: rgb(28, 49, 187);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

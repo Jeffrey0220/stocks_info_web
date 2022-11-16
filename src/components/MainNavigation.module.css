@@ -1,0 +1,43 @@
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  background: rgb(15, 185, 97);
+  color: #fff;
+  height: 66px;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  margin-top: 1%;
+}
+
+.navbar ul li {
+  margin-left: 27px;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.navbar a:hover {
+  color: rgb(145, 215, 238);
+  transition: 0.5s ease-in-out;
+}
